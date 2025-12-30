@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leonardo Montador | Cartão de Visita</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body { background: var(--dark-blue); color: white; display: flex; align-items: center; justify-content: center; min-height: 100vh; padding: 20px; }
+        .vcard-container { width: 100%; max-width: 400px; text-align: center; background: rgba(255,255,255,0.05); padding: 30px; border-radius: 20px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); }
+        .profile-img { width: 120px; height: 120px; border-radius: 50%; border: 4px solid var(--orange); margin-bottom: 20px; object-fit: cover; }
+        .btn-link-vcard { background: white; color: var(--dark-blue); font-weight: 600; border: none; padding: 15px; border-radius: 12px; margin-bottom: 15px; display: flex; align-items: center; justify-content: center; transition: 0.3s; text-decoration: none; }
+        .btn-link-vcard:hover { background: var(--orange); color: white; transform: scale(1.02); }
+        .btn-link-vcard i { margin-right: 10px; font-size: 1.2rem; }
+    </style>
+</head>
+<body>
+    <div class="vcard-container shadow-lg">
+        <i class="fa-solid fa-screwdriver-wrench fa-4x text-warning mb-3"></i>
+        <h2 class="fw-bold">Leonardo Montador</h2>
+        <p class="text-warning mb-4">Montagem de Móveis Profissional</p>
+
+        <a href="https://wa.me/5513974130852" class="btn-link-vcard shadow-sm">
+            <i class="fa-brands fa-whatsapp"></i> Conversar no WhatsApp
+        </a>
+        <a href="index.html" class="btn-link-vcard shadow-sm">
+            <i class="fa-solid fa-globe"></i> Ver Meu Site Completo
+        </a>
+        <a href="tel:5513974130852" class="btn-link-vcard shadow-sm">
+            <i class="fa-solid fa-phone"></i> Ligar Agora
+        </a>
+        <a href="mailto:contato@leonardomontador.com" class="btn-link-vcard shadow-sm">
+            <i class="fa-solid fa-envelope"></i> Enviar E-mail
+        </a>
+
+        <div class="mt-4">
+            <p class="small mb-0">&copy; 2025 Leonardo Montador</p>
+        </div>
+    </div>
+</body>
+</html>
